@@ -46,7 +46,7 @@ function calculateEvenNum(firstNum, secondNum) {
     "There are " + eNumArray.length + " even numbers:";
   document.getElementById("msg").innerHTML = eNumArray;
 }
-//even function
+//call even function
 function isEven(num) {
   res = true;
   for (var i = num; i <= num + 1; i++) {
